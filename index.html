@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata|Josefin+Sans">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
@@ -13,47 +15,100 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
 </head>
 <body>
-  About
-  Careers
-  Events
-  Products
-  Support
+  <header>
+    <img id="header-logo" src="/images/logo.svg" alt="Loop Studios logo">
+    <nav id="header-nav">
+      <a href="/about">About</a>
+      <a href="/careers">Careers</a>
+      <a href="/event">Events</a>
+      <a href="/products">Products</a>
+      <a href="/support">Support</a>
+    </nav>
+    <h1 id="header-title">Immersive experiences that deliver</h1>
+  </header>
 
-  Immersive experiences that deliver
+  <section>
+    <div id="tagline-container">
+      <img id="tagline-img" src="/images/desktop/image-interactive.jpg" alt="Interactive VR">
+      <div id="tagline-text">
+        <h3 id="tagline-title">The leader in interactive VR</h3>
+        <span>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+          projects for some of the best companies around the globe. Our award-winning 
+          creations have transformed businesses through digital experiences that bind 
+          to their brand.</span>
+      </div>
+    </div>
+  </section>
 
-  The leader in interactive VR
+  <main>
+    <div id="main">
+      <h3 id="main-title">Our creations</h3>
+      <button id="main-button">See all</button>
+    </div>
+    <div class="grid-container">
+      <div class="image-container">
+        <img src="/images/desktop/image-deep-earth.jpg" alt="Deep earth">
+        <div class="bottomcenter">Deep earth</div>
+      </div>
+      <div class="image-container">
+        <img src="/images/desktop/image-night-arcade.jpg" alt="Night arcade">
+        <div class="bottomcenter">Night arcade</div>
+      </div>
+      <div class="image-container">
+        <img src="/images/desktop/image-soccer-team.jpg" alt="Soccer team VR">
+        <div class="bottomcenter">Soccer team VR</div>
+      </div>
+      <div class="image-container">
+        <img src="/images/desktop/image-grid.jpg" alt="The grid">
+        <div class="bottomcenter">The grid</div>
+      </div>
+      <div class="image-container">
+        <img src="/images/desktop/image-from-above.jpg" alt="From up above VR">
+        <div class="bottomcenter">From up above VR</div>
+      </div>
+      <div class="image-container">
+        <img src="/images/desktop/image-pocket-borealis.jpg" alt="Pocket borealis">
+        <div class="bottomcenter">Pocket borealis</div>
+      </div>
+      <div class="image-container">
+        <img src="/images/desktop/image-curiosity.jpg" alt="The curiosity">
+        <div class="bottomcenter">The curiosity</div>
+      </div>
+      <div class="image-container">
+        <img src="/images/desktop/image-fisheye.jpg" alt="Make it fisheye">
+        <div class="bottomcenter">Make it fisheye</div>
+      </div>
+    </div>
+  </main>
 
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
-
-  Our creations
-
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved.
+  <footer class="footer-section">
+    <div>
+      <img id="footer-logo" src="/images/logo.svg" alt="Loop Studios logo">
+      <nav id="footer-nav">
+        <a href="/about">About</a>
+        <a href="/careers">Careers</a>
+        <a href="/event">Events</a>
+        <a href="/products">Products</a>
+        <a href="/support">Support</a>
+      </nav>
+    </div>
+    <div>
+      <div class="footer-social">
+        <a href="www.facebook.com"><img src="/images/icon-facebook.svg"/></a>
+        <a href="www.twitter.com"><img src="/images/icon-twitter.svg"/></a>
+        <a href="www.pinterest.com"><img src="/images/icon-pinterest.svg"/></a>
+        <a href="www.instagram.com"><img src="/images/icon-instagram.svg"/></a>
+      </div>
+      <p id="copyright">© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+  </footer>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Melissa Preece</a>.
   </div>
 </body>
 </html>
