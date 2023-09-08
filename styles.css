@@ -71,7 +71,7 @@ h3 {
     width: 27%;
     max-width: 500px;
     gap: 8%;
-    height: 35%;
+    /* height: 35%; */
     margin: auto;
 }
 
@@ -86,10 +86,10 @@ h3 {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    max-width: 35%;
+    max-width: 40%;
     position: absolute;
-    top: 40%;
-    left: 12%;
+    top: 18%;
+    left: 10%;
 }
 
 #tagline-container {
