@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./loopstudios-landing-page-main.png)
+![](./loop-studios-landing-page.png)
 
 <!-- ### Links
 
