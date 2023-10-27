@@ -1,18 +1,28 @@
 @import url('https://fonts.google.com/specimen/Alata');
 @import url('https://fonts.google.com/specimen/Josefin+Sans');
 
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+  }
 
 body {
-    font-family: 'Alata';
-    font-size: 15px; 
-    font-weight: 400;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    font-family: 'Alata', sans-serif;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-image: url('/images/desktop/image-hero.jpg');
     background-color: hsl(0, 0%, 55%);
+    padding: 300px 10px;
     background-size: cover;
-    height: 500px;
 }
 
 h1 {
@@ -21,8 +31,7 @@ h1 {
     font-size: 60px;
     color: hsl(0, 0%, 100%);
     text-transform: uppercase;
-    padding: 20px;
-    border: 1px solid hsl(0, 0%, 100%);
+    padding: 10px 10px;
 }
 
 h3 {
@@ -79,7 +88,7 @@ h3 {
     text-decoration: none;
     display: block;
     color: hsl(0, 0%, 100%);
-    text-align: left;
+    text-align: center;
 }
 
 #header-nav a:hover {
@@ -92,10 +101,11 @@ h3 {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    max-width: 40%;
+    max-width: 50%;
     position: absolute;
     top: 18%;
     left: 10%;
+    border: 1px solid hsl(0, 0%, 100%);
 }
 
 #tagline-container {
@@ -103,7 +113,7 @@ h3 {
 }
 
 #tagline-img {
-    max-width: 45%;
+    max-width: 50%;
     position: relative;
     margin: 5%;
 }
@@ -190,6 +200,36 @@ h3 {
 
 #copyright {
     color: hsl(0, 0%, 41%);
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        padding: 100px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    h1 {
+        text-align: right;
+    }
+
+    #header-logo {
+        float: none;
+    }
+
+    #header-nav {
+        float: none;
+        display: block;
+    }
+
+    #header-title {
+        margin: 10px 10px;
+        font-size: 25px;
+        top: 25%;
+    }
+
 }
 
 
